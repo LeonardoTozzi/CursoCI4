@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Controllers;
+
+use App\Controllers\BaseController;
+use CodeIgniter\HTTP\ResponseInterface;
+
+class Main extends BaseController
+{
+    public function index()
+    {
+        echo "Hello World";
+    }
+
+    public function pagina_1()
+    {
+        echo "página 1";
+    }
+    public function pagina_2()
+    {
+        echo "página 2";
+    }
+}
