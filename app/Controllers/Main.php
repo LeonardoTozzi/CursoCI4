@@ -20,4 +20,32 @@ class Main extends BaseController
     {
         echo "página 2";
     }
+
+    public function ph_any($valor1, $valor2)
+    {
+        echo $valor1;
+        echo '<br>';
+        echo $valor2;
+    }
+
+    public function ph_segment($valor1)
+    {
+        echo $valor1;
+    }
+
+    public function ph_num($valor1)
+    {
+        echo $valor1;
+    }
+
+    public function ph_alpha($valor1)
+    {
+        echo $valor1;
+    }
+
+    public function ph_alphanum($valor1)
+    {
+        echo $valor1;
+    }
+
 }
